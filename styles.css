@@ -1,2 +1,2 @@
 .Bohemians_Praha_1905{ color:chartreuse; }
-body { background: #00500f; }
+body { background: #00500f url("cute.jpg") repeat-y right top; }
