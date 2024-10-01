@@ -2,14 +2,16 @@ body {
     background: linear-gradient(to right, #013d0c, #005000); /* Smooth gradient from one shade of green to another */
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    grid-gap: 10px; }
+    grid-template-rows: auto; /* Rows adjust to content */
+    grid-gap: 10px; /* Space between grid items */
+}
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     font-size: small; 
     text-align: center;
     padding: 20px;
-    margin: 90px;
+    margin: 20px; /* Reduced margin for better spacing */
     border: 3px solid #ffffff;
     background-color: #ffffff;
 }
@@ -22,7 +24,8 @@ p {
     font-weight: bold; 
     line-height: 3cm; 
     text-transform: uppercase;
-    animation: fadeIn 2s ease-in-out; 
+    grid-column: 1 / -1; /* Span the entire width (across all 3 columns) */
+    animation: fadeIn 2s ease-in-out; /* Animation added */
 }
 
 .Title:hover {
@@ -43,12 +46,10 @@ p {
 
 .Bohemians_Praha_1905 {
     color: #118827;
-    grid-column: span 1;
 }
 
 .Chelsea {
     color: blue;
-    grid-column: span 1;
 }
 
 .Barcelona > p {
@@ -57,19 +58,17 @@ p {
 
 .Barcelona #Nadpis {
     color: blue;
-    grid-column: span 1;
 }
 
 .Montreal_Canadiens {
     color: red;
-    grid-column: span 1;
 }
 
 .Red_Bull_F1 {
     color: darkblue;
-    grid-column: span 1;
 }
 
+/* Animation */
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
