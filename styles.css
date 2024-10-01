@@ -1,18 +1,76 @@
-body { background: #013d0c;}
-p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: small; text-align: center;}
-.Title{ color:violet; font-size: x-large; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-weight: bold; line-height:3cm; text-transform: uppercase;}
-.Title:hover {color:rgb(198, 197, 197)}
-#Nadpis{font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline; text-align: center;}
-#image{text-align: center; line-height:2cm;}
-.Bohemians_Praha_1905{ color: #118827; }
-.Chelsea{color:blue;}
-.Barcelona > p {color: red}
-.Barcelona #Nadpis{color: blue;}
-.Montreal_Canadiens{color: red;}
-.Red_Bull_F1{color: darkblue;}
+body {
+    background: linear-gradient(to right, #013d0c, #005000); /* Smooth gradient from one shade of green to another */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    grid-gap: 10px; }
+
 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: small; 
+    text-align: center;
     padding: 20px;
     margin: 90px;
     border: 3px solid #ffffff;
     background-color: #ffffff;
-  }
+}
+
+.Title {
+    color: violet; 
+    font-size: x-large; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center; 
+    font-weight: bold; 
+    line-height: 3cm; 
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out; 
+}
+
+.Title:hover {
+    color: rgb(198, 197, 197);
+}
+
+#Nadpis {
+    font-size: large; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-decoration: underline; 
+    text-align: center;
+}
+
+#image {
+    text-align: center; 
+    line-height: 2cm;
+}
+
+.Bohemians_Praha_1905 {
+    color: #118827;
+    grid-column: span 1;
+}
+
+.Chelsea {
+    color: blue;
+    grid-column: span 1;
+}
+
+.Barcelona > p {
+    color: red;
+}
+
+.Barcelona #Nadpis {
+    color: blue;
+    grid-column: span 1;
+}
+
+.Montreal_Canadiens {
+    color: red;
+    grid-column: span 1;
+}
+
+.Red_Bull_F1 {
+    color: darkblue;
+    grid-column: span 1;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
