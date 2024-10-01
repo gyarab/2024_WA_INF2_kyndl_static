@@ -1,9 +1,9 @@
 body {
-    background: linear-gradient(to right, #013d0c, #005000); /* Smooth gradient from one shade of green to another */
+    background: linear-gradient(to right, #013d0c, #005000);
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    grid-template-rows: auto; /* Rows adjust to content */
-    grid-gap: 10px; /* Space between grid items */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 p {
@@ -11,7 +11,7 @@ p {
     font-size: small; 
     text-align: center;
     padding: 20px;
-    margin: 20px; /* Reduced margin for better spacing */
+    margin: 20px;
     border: 3px solid #ffffff;
     background-color: #ffffff;
 }
@@ -24,8 +24,8 @@ p {
     font-weight: bold; 
     line-height: 3cm; 
     text-transform: uppercase;
-    grid-column: 1 / -1; /* Span the entire width (across all 3 columns) */
-    animation: fadeIn 2s ease-in-out; /* Animation added */
+    grid-column: 1 / -1;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .Title:hover {
@@ -68,7 +68,6 @@ p {
     color: darkblue;
 }
 
-/* Animation */
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
