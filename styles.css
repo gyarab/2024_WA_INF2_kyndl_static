@@ -9,8 +9,7 @@ p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sa
 .Barcelona #Nadpis{color: blue;}
 .Montreal_Canadiens{color: red;}
 .Red_Bull_F1{color: darkblue;}
-#image{width: 300px;
-    height: 100px;
-    border: 15px aqua;
+#image{width: 300px;;
+    border: 50px aqua;
     padding: 50px;
     margin: 20px;}
