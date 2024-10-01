@@ -3,13 +3,13 @@ p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sa
 .Title{ color:violet; font-size: x-large; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center; font-weight: bold; line-height:3cm; text-transform: uppercase;}
 .Title:hover {color:white}
 #Nadpis{font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline; text-align: center;}
+#image{text-align: center;}
 .Bohemians_Praha_1905{ color:chartreuse; }
 .Chelsea{color:blue;}
 .Barcelona > p {color: red}
 .Barcelona #Nadpis{color: blue;}
 .Montreal_Canadiens{color: red;}
 .Red_Bull_F1{color: darkblue;}
-#image{width: 300px;;
-    border: 50px aqua;
+p{border: 50px aqua;
     padding: 50px;
     margin: 20px;}
