@@ -4,7 +4,7 @@ p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sa
 .Title:hover {color:white}
 #Nadpis{font-size: large; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: underline; text-align: center;}
 #image{text-align: center; line-height:2cm;}
-.Bohemians_Praha_1905{ color:chartreuse; }
+.Bohemians_Praha_1905{ color: #00500f; }
 .Chelsea{color:blue;}
 .Barcelona > p {color: red}
 .Barcelona #Nadpis{color: blue;}
