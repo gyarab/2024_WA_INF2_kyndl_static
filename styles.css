@@ -28,7 +28,7 @@ p {
     color: rgb(198, 197, 197);
 }
 
-#Nadpis {
+#Nadpis1, #Nadpis2, #Nadpis3, #Nadpis4, #Nadpis5{
     font-size: large; 
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     text-decoration: underline; 
