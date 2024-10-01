@@ -11,3 +11,12 @@ p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sa
 .Montreal_Canadiens{color: red;}
 .Red_Bull_F1{color: darkblue;}
 .Title{border: aqua; padding: 50px; margin: 20px;}
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
