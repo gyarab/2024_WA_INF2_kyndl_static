@@ -2,7 +2,7 @@ body {
     background-image: 
         url('cute.jpg'), 
         linear-gradient(to right, #013d0c, #005000);
-    background-position: top right;
+    background-position: top right, 0 0;
     background-repeat: no-repeat;
     background-size: 100px;
 }
