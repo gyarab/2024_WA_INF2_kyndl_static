@@ -4,7 +4,7 @@ body {
         linear-gradient(to right, #013d0c, #005000);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 100px auto, cover;
+    background-size: 100px, cover;
 }
 
 
