@@ -1,5 +1,9 @@
 body {
     background: linear-gradient(to right, #013d0c, #005000);
+    background-image: url('cute.jpg');
+    background-position: top left; 
+    background-repeat: no-repeat; 
+    background-size: 150px auto;
 }
 
 p {
