@@ -2,9 +2,9 @@ body {
     background-image: 
         url('cute.jpg'), 
         linear-gradient(to right, #013d0c, #005000);
-    background-position: top left, 0 0;
+    background-position: top right;
     background-repeat: no-repeat;
-    background-size: 150px auto, cover;
+    background-size: 100px;
 }
 
 
