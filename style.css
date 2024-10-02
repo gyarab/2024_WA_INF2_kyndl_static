@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to right, #013d0c, #005000);
-    background: #FFCC99 url("image.png") repeat-y right top;
+    background: url("image.png") repeat-y right top;
 }
 
 p {
