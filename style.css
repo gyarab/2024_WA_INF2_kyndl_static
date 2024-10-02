@@ -1,5 +1,5 @@
 body {
-    background: url(cute.jpg) linear-gradient(to right, #013d0c, #005000,);
+    background: url(cute.jpg) repeat-x 50px linear-gradient(to right, #013d0c, #005000,);
 }
 
 p {
