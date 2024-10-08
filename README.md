@@ -1,2 +1,2 @@
 # 2024_WA_INF2_kyndl_static
-ouheuf
+V tomto repozitáři můžete najít usilovné snažení Davida Kyndla při tvorbě CSS a HTML. Poslední projekt můžete vyhledávat v index.hmtl a style.css. Přeji všem co si tuto zprávu čtou, ať mají přenádherný den. 
