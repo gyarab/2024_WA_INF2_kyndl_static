@@ -33,8 +33,14 @@ header h1 {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
 }
-.container .item {
+
+.container .item:hover p{
+    display: block;
 }
 .container .item h2 {
     color: white;
@@ -75,5 +81,11 @@ header h1 {
     body{
         background-color: bisque;
     }
+}
+
+.stick {
+    position:sticky;
+    bottom: 0;
+    z-index: 10;
 }
 
