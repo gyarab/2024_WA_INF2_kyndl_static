@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS test</title>
+    <style>
+        .item {
+            background-color: aliceblue;
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" id="tlacitko" value="TEST"/>
+    <input type="text" id="vstup" value=""/>
+    <div id="test"></div>
+    <script>
+        console.log("Hello world");
+
+        function remove(element) {
+            element.parentNode.removeChild(element);
+        }
+        function novyElement(before) {
+            let el = document.getElementById("test");
+
+            let inp = document.getElementById("vstup")
+            let div = document.createElement("div");
+            div.classList.add("item");
+            div.innerHTML=inp.value;
+
+            // uzaviraci tlacitko
+            let divClose = document.createElement("div");
+            divClose.innerHTML = "❌";
+            divClose.addEventListener("click", (event) => {
+                remove(div);
+            });
+            div.appendChild(divClose);
+
+            // tlačítko co přidá novou položku před aktuální prvek
+            let divAdd = document.createElement("div");
+            divAdd.innerHTML = "➕";
+            divAdd.addEventListener("click", (event) => {
+                // before je aktuální div
+                novyElement(div);
+            });
+            div.appendChild(divAdd);
+
+            
+            if (before) {
+                // přidá před before
+                el.insertBefore(div, before)
+            }
+            else {
+                // přidá nakonec
+                el.appendChild(div);
+            }
+        }
+
+        let tlacitko=document.getElementById("tlacitko");
+        tlacitko.addEventListener("click", (event) => {
+            novyElement();
+        })
+
+    </script>
+</body>
+</html>
